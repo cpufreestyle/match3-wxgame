@@ -2,7 +2,38 @@
   "description": "糖果消消乐 - Match 3 微信小游戏",
   "packOptions": {
     "ignore": [
-      { "type": "folder", "value": ".git" }
+      {
+        "type": "folder",
+        "value": ".git"
+      },
+      {
+        "type": "file",
+        "value": "index.html"
+      },
+      {
+        "type": "file",
+        "value": "test-adapter.js"
+      },
+      {
+        "type": "file",
+        "value": "taptap_upload.py"
+      },
+      {
+        "type": "file",
+        "value": "taptap_auto.py"
+      },
+      {
+        "type": "file",
+        "value": "taptap_explore.py"
+      },
+      {
+        "type": "file",
+        "value": "README.md"
+      },
+      {
+        "type": "file",
+        "value": ".gitignore"
+      }
     ]
   },
   "setting": {
@@ -13,9 +44,9 @@
     "minified": true,
     "newFeature": true
   },
-  "compileType": "miniGame",
+  "compileType": "game",
   "libVersion": "2.30.4",
-  "appid": "touristappid",
+  "appid": "wx7ab99245fd4fe47b",
   "projectname": "match3-wxgame",
   "condition": {}
 }
