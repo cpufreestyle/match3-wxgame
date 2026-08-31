@@ -867,7 +867,7 @@ function init() {
         }
     });
 
-    // 游戏循环
+    // 游戏循环 (lib 3.x: canvas 实例的 requestAnimationFrame 已移除，必须用全局函数)
     let lastTime = Date.now();
     function loop() {
         const now = Date.now();
@@ -875,7 +875,7 @@ function init() {
         lastTime = now;
         game.update(dt);
         game.render();
-        canvas.requestAnimationFrame(loop);
+        requestAnimationFrame(loop);
     }
     loop();
 }
