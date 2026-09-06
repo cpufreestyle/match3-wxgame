@@ -47,6 +47,6 @@
   "compileType": "game",
   "libVersion": "2.30.4",
   "appid": "wx27892251b37342a7",
-  "projectname": "match3-candy",
+  "projectname": "match3-wxgame",
   "condition": {}
 }
