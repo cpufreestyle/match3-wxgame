@@ -1,0 +1,12 @@
+{
+  "description": "糖果消消乐 - 消消乐小游戏",
+  "appid": "touristappid",
+  "compileType": "game",
+  "projectname": "candy-match3",
+  "setting": {
+    "es6": true,
+    "minified": true,
+    "urlCheck": false
+  },
+  "libVersion": "2.30.4"
+}
